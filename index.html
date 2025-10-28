@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>EasyEnglish - Angol Magánórák</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #5d3828;
+            margin: 0;
+            padding: 0;
+            color: #222;
+        }
+        header {
+            background: #ffc166;
+            color: #5d3828;
+            padding: 30px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 30px auto;
+            max-width: 900px;
+            text-align: center;
+        }
+        nav a {
+            color: #ffc166;
+            text-decoration: none;
+            margin: 0 18px;
+            font-weight: bold;
+        }
+        section {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 30px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 24px #dcecff55;
+            background-color: #fff8ee;
+        }
+        #about {
+            margin-top: 25px;
+            background-color:  #fff8ee;
+        }
+        h2     {
+            margin-top: 0;
+        }
+        .h1     {
+            font-size: 22px;
+        }
+        .services ul {
+            list-style: none;
+            padding: 0;
+        }
+        .services li {
+            background: #fefefe;
+            margin-bottom: 10px;
+            padding: 12px 18px;
+            border-radius: 7px;
+        }
+        .contact label {
+            display: block;
+            margin-top: 8px;
+        }
+        .contact input, .contact textarea {
+            width: 96%;
+            padding: 9px;
+            margin-top: 3px;
+            border-radius: 5px;
+            border: 1px solid #bcd0ee;
+            margin-bottom: 10px;
+        }
+        .contact button {
+            background: #3b82f6;
+            color: #fff;
+            padding: 10px 22px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .testimonials {
+            font-style: italic;
+            background: #f1f7ff;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #fff8ee;
+        }
+        @media (max-width: 600px) {
+            section {
+                padding: 12px;
+            }
+        }
+        .logo {
+            position: absolute;
+            top: 25px;
+            left: 25px;
+            width: 180px;  
+            height: auto;
+            z-index: 10;
+            background-color: #ffc166;
+        }
+
+        .logoH {
+            position: absolute;
+            top: 25px;
+            right: 25px;
+            width: 134px;  
+            height: auto;
+            z-index: 10;
+            border-radius: 5px;
+            border: 3px solid #000000
+        }
+        .logoL {
+            position: absolute;
+            top: 25px;
+            right: 200px;
+            width: 130px;  
+            height: auto;
+            z-index: 10;
+            border-radius: 5px;
+            border: 3px solid #000000
+        }
+        .right-photos {
+        position: absolute;
+        top: 30px;
+        right: 40px;
+        display: flex;
+        gap: 18px;
+        z-index: 10;
+        }
+
+        .photo-label {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .label-text {
+            font-size: 16px;
+            font-weight: bold;
+            color: #5d3828;
+            background: #ffc166;
+            padding: 2px 12px;
+            border-radius: 6px 6px 0 0;
+            margin-bottom: 4px;
+            letter-spacing: 1px;
+            box-shadow: 0 2px 8px #0001;
+        }
+
+        .profile-pic {
+            width: 90px;
+            height: 90px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid #fff;
+            box-shadow: 0 4px 16px #0002;
+        }
+        @media (max-width: 700px) {
+            .right-photos {
+                position: static;
+                justify-content: center;
+                margin-top: 10px;
+            }
+            .profile-pic {
+                width: 70px;
+                height: 70px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="h1">
+            <div class="right-photos">
+    <div class="photo-label">
+        <span class="label-text">Lilla</span>
+        <img src="Lilla.jpg" alt="Lilla" class="profile-pic">
+    </div>
+    <div class="photo-label">
+        <span class="label-text">Hermina</span>
+        <img src="Hermina.JPG" alt="Hermina" class="profile-pic">
+    </div>
+    </div>
+        <img src="logo.jpg" alt="EasyLanguage logó" class="logo">
+        <h1>EasyLanguage</h1>
+        <p><b> Online angol és magyar magánórák személyre szabva</b></p>
+    </header>
+    <nav>
+        <a href="#about">Rólam</a>
+        <a href="#services">Szolgáltatások</a>
+        <a href="#testimonials">Vélemények</a>
+        <a href="#contact">Kapcsolat</a>
+    </nav>
+
+    <section id="about">
+        <h2>Rólam</h2>
+        <p>
+            <b>Rác Szabó Lilla</b> vagyok, angol és magyar tanár 
+            és célom, hogy a tanulás élvezetes és hatékony legyen minden tanítványom számára – akár kezdő, akár haladó szinten vagy.
+            <p>✅ Egyéni figyelem</p>
+            <p>✅ Beszédcentrikus órák</p>
+            <p>✅ Rugalmas időpontok</p>
+        </p>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Szolgáltatások</h2>
+        <ul>
+            <li>Egyéni angol órák (60 perc: 5000 Ft)</li>
+            <li>Online angol tanulás (Zoom/Skype)</li>
+            <li>Vizsgafelkészítés (B2, C1)</li>
+        </ul>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <h2>Vélemények</h2>
+        <p>„Lilla órái után sokkal magabiztosabban beszélek angolul!” – Péter</p>
+        <p>„Jó hangulatban telnek az órák, mindig személyre szabott anyagokat kapok.” – Zsófi</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Kapcsolat</h2>
+        <form>
+            <label for="name">Név</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Üzenet</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Küldés</button>
+        </form>
+        <p>Vagy írj emailt: <a href="mailto:language@languageschoollili.com">language@languageschoollili.com</a></p>
+        <p>Telefon: +36 20 592 4233</p>
+        <p></p>
+    </section>
+</body>
+</html>
